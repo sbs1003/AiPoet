@@ -15,7 +15,7 @@ chat_model = ChatOpenAI()
 
 import streamlit as st
 
-st.title("This is a title")
+st.title("poet.py")
 content = st.text_input("시의 주제를 제세해주세요!")
 
 if st.button("시 작성 요청하기"):
